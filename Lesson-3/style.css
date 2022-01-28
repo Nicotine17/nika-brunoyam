@@ -1,0 +1,43 @@
+p {
+    color: blueviolet;
+    border: solid 3px plum;
+    font-family: Times New Roman, Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 48px;
+    text-align: center;
+    background: papayawhip;
+    padding: 24px 48px;
+    margin: 24px 48px;
+    width: 850px;
+    height: 150px;
+}
+
+body {
+    background: rosybrown;
+}
+
+.violet-text {
+    color: rgb(240, 188, 240)
+}
+
+.pink-text {
+    color: pink
+}
+
+.rose-text {
+    color: rosybrown
+}
+
+div h2 {
+    color: rgb(205, 80, 255);
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
