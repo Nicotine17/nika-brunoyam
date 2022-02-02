@@ -1,0 +1,41 @@
+body {
+  margin: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+}
+.header {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 0px 10px 10px 10px;
+}
+.content {
+  border: 1px solid black;
+  flex-grow: 3;
+  height: 360px;
+}
+.right {
+  margin: 0px 10px;
+  border: 1px solid black;
+  width: 100px;
+  height: 360px;
+}
+.footer {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 100px;
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+body {
+  margin: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+}
+.header {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 150px;
+}
+.left {
+  height: 300px;
+  width: 100px;
+}
+.content {
+  border: 1px solid black;
+  flex-grow: 3;
+}
+.right {
+  width: 100px;
+}
+.footer {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 150px;
+}

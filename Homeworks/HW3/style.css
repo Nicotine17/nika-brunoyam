@@ -1,0 +1,29 @@
+h1,
+h2 {
+  color: blue;
+  text-align: center;
+  font-style: italic;
+}
+img {
+  border: solid 5px red;
+}
+nav {
+  background: pink;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  text-indent: 16px;
+  line-height: 32px;
+}
+span {
+  color: blue;
+  font-size: xx-large;
+}
+.pink {
+  background: pink;
+}
+.grey {
+  background: rgb(206, 205, 205);
+}
