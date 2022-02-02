@@ -1,0 +1,36 @@
+body {
+  margin: 80px;
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  display: flex;
+  flex-flow: wrap;
+  border: 1px solid black;
+}
+.header {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 150px;
+  margin-bottom: 15px;
+}
+.left {
+  height: 300px;
+  border: 1px solid black;
+  flex-grow: 1;
+  margin-right: 15px;
+}
+.content {
+  border: 1px solid black;
+  flex-grow: 3;
+}
+.right {
+  margin-left: 15px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
+.footer {
+  flex-basis: 100%;
+  border: 1px solid black;
+  height: 150px;
+  margin-top: 15px;
+}
