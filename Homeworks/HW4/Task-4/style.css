@@ -20,13 +20,15 @@ body {
   margin: 20px 20px 20px 0px;
 }
 .left {
-  flex-grow: 1;
+  width: 150px;
+  height: 150px;
 }
 .content {
   flex-grow: 3;
 }
 .right {
-  flex-grow: 1;
+  width: 150px;
+  height: 150px;
 }
 .left1,
 .left3,
