@@ -14,14 +14,14 @@ body {
 }
 .left {
   height: 300px;
-  flex-grow: 1;
+  width: 100px;
 }
 .content {
   border: 1px solid black;
   flex-grow: 3;
 }
 .right {
-  flex-grow: 1;
+  width: 100px;
 }
 .footer {
   flex-basis: 100%;
