@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+}
+
+.red {
+  width: 100px;
+  height: 100px;
+  border: red solid 2px;
+  position: static;
+}
+
+.blue {
+  width: 100px;
+  height: 100px;
+  border: blue solid 2px;
+  position: absolute;
+  left: 180px;
+  top: 50px;
+}
+
+.green {
+  width: 100px;
+  height: 100px;
+  border: green solid 2px;
+  position: absolute;
+  left: 310px;
+  top: 50px;
+}

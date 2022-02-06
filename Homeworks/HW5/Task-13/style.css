@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  width: 500px;
+  color: rgb(173, 63, 115);
+  border: 1px solid rgb(173, 63, 115);
+  padding: 10px 20px 30px 20px;
+  border-radius: 2% 2% 0 0;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(173, 63, 115);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 10px;
+  width: 500px;
+  position: sticky;
+  bottom: 0;
+}
+
+footer h2 {
+  font-weight: lighter;
+}
