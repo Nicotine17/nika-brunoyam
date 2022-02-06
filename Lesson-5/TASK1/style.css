@@ -1,0 +1,37 @@
+header,
+.main,
+.left-menu,
+.content,
+.right-menu,
+footer,
+{
+    border: 2px solid black;
+}
+
+header,
+footer {
+    height: 80px;
+}
+
+.main {
+    height: 600px;
+    display: flex;
+}
+
+.left-menu,
+.right-menu {
+    width: 20%;
+}
+
+.content {
+    width: 60%;
+}
+
+
+/* .left-menu,
+.right-menu {
+    flex-grow: 1;
+}
+.content {
+    flex-grow: 5;
+} */

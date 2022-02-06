@@ -1,0 +1,42 @@
+header,
+.main,
+.left-menu,
+.content,
+.right-menu,
+footer,
+{
+    border: 2px solid black;
+}
+
+header,
+footer {
+    height: 80px;
+}
+
+.main {
+    height: 600px;
+    display: flex;
+}
+
+.left-menu,
+.right-menu {
+    width: 20%;
+}
+
+.content {
+    width: 60%;
+}
+
+.left-menu,
+.right-menu,
+.content {
+    margin: 16px;
+}
+
+.left-menu {
+    margin-left: 0;
+}
+
+.right-menu {
+    margin-right: 0;
+}
