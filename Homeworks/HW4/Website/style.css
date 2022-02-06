@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  /* margin: 0 120px; */
+}
+
+.name {
+  color: #59abe3;
+  font-weight: 400;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.template {
+  display: flex;
+  flex-flow: column;
+  background-image: url(img/jumbotron.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 480px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.template h1 {
+  font-weight: 600;
+  font-size: 45px;
+  padding: 30px 0;
+}
+
+.template p {
+  background-color: #fa5ba5;
+  padding: 22px 35px;
+  border-radius: 40px;
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 140px;
+}
+
+.services {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.icon {
+  width: 30%;
+}
+.iconcont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  color: #999;
+  text-align: center;
+  font-size: 15px;
+  width: 65%;
+  margin: auto;
+}
+
+.icon i {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.blog {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 250px 0px 250px;
+}
+
+.blog h1 {
+  padding-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.imgs {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.content p {
+  color: #999;
+}
+
+.footer {
+  display: flex;
+  flex-flow: column;
+  background-color: #38404b;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0 40px 0;
+}
+
+.footer h1 {
+  color: #bcc9dd;
+  font-weight: 400;
+  align-items: center;
+}
+
+.nav2 {
+  display: flex;
+  padding: 0;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color: #bcc9dd;
+}
+
+.nav2 ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav2 li {
+  margin: 0 10px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+}
