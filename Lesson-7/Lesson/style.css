@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: silver;
+    min-width: 400px;
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+}
+
+form input {
+    border: none;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+form input::placeholder {
+    color: yellow;
+    text-transform: uppercase;
+}
+
+form input:focus {
+    outline: blue 2px solid;
+}
+
+form input:required {
+    outline: green 2px solid;
+}
+
+form input:invalid {
+    background-color: red;
+    color: white;
+}
+
+form input:valid {
+    background-color: green;
+    color: white;
+}
+
+form input:disabled {
+    background-color: olive;
+}
+
+form input:checked {
+    border: black 2px solid;
+}
+
+form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 300px;
+}
