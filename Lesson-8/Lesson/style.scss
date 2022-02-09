@@ -1,0 +1,29 @@
+$primary-color: red;
+@mixin link {
+    text-decoration: none;
+    color: blue;
+    font-size: 24px;
+}
+
+%message-shared {
+    border: 1px pink solid;
+    padding: 5px;
+    color: blueviolet;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    h1 {
+        color: $primary-color;
+    }
+}
+
+a {
+    @include link;
+}
+
+p {
+    @extend %message-shared;
+}
