@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <div>
+        <label class="title" for="name">
+            <span>Full Name</span>
+        </label>
+
+        <div class="content">
+            <input type="text" id="name">
+        </div>
+    </div>
+
+    <div>
+        <label class="title" for="email">
+            <span>Email</span>
+        </label>
+
+        <div class="content">
+            <input type="email" id="email">
+        </div>
+    </div>
+
+    <div>
+        <label class="title" for="message">
+            <span>Message</span>
+        </label>
+
+        <div class="content">
+            <textarea id="message"></textarea>
+        </div>
+    </div>
+    
+    <div>
+        <span class="title">Select a <br>Choice</span>
+
+        <div class="content">
+            <div>
+                <label for="radio-1">
+                    <input id="radio-1" type="radio" name="options" checked>
+                    <span>First Choice</span>
+                </label>
+            </div>
+
+            <div>
+                <label for="radio-2">
+                    <input id="radio-2" type="radio" name="options">
+                    <span>Second Choice</span>
+                </label>
+            </div>
+
+            <div>
+                <label for="radio-3">
+                    <input id="radio-3" type="radio" name="options">
+                    <span>Third Choice</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <span class="title">Check All <br>That Apply</span>
+
+        <div class="content">
+            <div>
+                <label for="checkbox-1">
+                    <input id="checkbox-1" type="checkbox">
+                    <span>First Choice</span>
+                </label>
+            </div>
+        
+            <div>
+                <label for="checkbox-2">
+                    <input id="checkbox-2" type="checkbox">
+                    <span>Second Choice</span>
+                </label>
+            </div>
+        
+            <div>
+                <label for="checkbox-3">
+                    <input id="checkbox-3" type="checkbox">
+                    <span>Third Choice</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <label class="title" for="select">
+            <span>Select a <br>Choice</span>
+        </label>
+
+        <div class="content">
+            <select id="select">
+                <option>First Choice</option>
+                <option>Second Choice</option>
+                <option>Third Choice</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="button">
+        <button type="Submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
