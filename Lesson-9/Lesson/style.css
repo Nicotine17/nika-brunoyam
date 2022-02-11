@@ -1,0 +1,76 @@
+/* p {
+    background-color: pink;
+} */
+
+
+/* @media (max-width: 992px) {
+    p {
+        background-color: orange;
+        color: red;
+    }
+}
+
+@media (min-width: 993px) {
+    p {
+        background-color: rgb(255, 102, 0);
+        color: aliceblue;
+    }
+} */
+
+
+/* @media (max-height: 400px) {
+    p {
+        background-color: orange;
+        color: red;
+    }
+} */
+
+
+/* @media (min-height: 600px) {
+    p {
+        background-color: rgb(255, 102, 0);
+        color: aliceblue;
+    }
+} */
+
+
+/* @media (min-width: 768px) and (max-width: 1000px) {
+    body {
+        background-color: pink;
+    }
+} */
+
+
+/* Desktop First Method */
+
+body {
+    background-color: rgb(163, 184, 211);
+}
+
+@media (max-width: 1199px) {
+    body {
+        background-color: pink;
+    }
+}
+
+
+/* Tablets */
+
+@media (max-width: 768px) {
+    body {
+        background-color: peru;
+    }
+}
+
+
+/* Mobile First Method */
+
+@media (max-width: 599px) {
+    body {
+        background-color: rgba(235, 72, 44, 0.575);
+    }
+}
+
+img {
+    max-width: 100%;
+}
