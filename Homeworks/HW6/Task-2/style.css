@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.content,
+.title {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+div {
+  display: flex;
+}
+
+.content,
+.title {
+  width: 150px;
+  margin: 8px 0;
+}
+
+.button {
+  margin: 0px 150px;
+}
+
+textarea {
+  min-width: 300px;
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+}
