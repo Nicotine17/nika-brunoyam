@@ -1,0 +1,194 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.container {
+  font-family: "Open Sans";
+  width: 65%;
+  position: relative;
+}
+
+.header {
+  h1 {
+    font-size: 29.2px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #515151;
+  }
+
+  p {
+    font-size: 17.2px;
+    line-height: 2;
+    font-weight: 400;
+    color: #8f8f8f;
+  }
+
+  button {
+    font-size: 14.9px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: rgba(81, 81, 81, 0.7);
+    width: 183px;
+    height: 52px;
+    background-color: #ffffff;
+    border: 1px solid rgba(81, 81, 81, 0.41);
+    border-radius: 12px;
+    position: absolute;
+    right: 0;
+    top: 3.2%;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+
+  .box {
+    width: 300px;
+    height: 520px;
+    background-color: #f7f7f7;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 10px 10px 0 0;
+
+    .imageContainer {
+      position: relative;
+
+      .oppacityImg-1 {
+        opacity: 0.85;
+      }
+
+      .oppacityImg-2 {
+        opacity: 0.9;
+      }
+
+      .labelNew {
+        width: 74px;
+        height: 74px;
+        background-color: #add136;
+        border-radius: 10px 0 0 0;
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        clip-path: polygon(0 0, 100% 0, 0% 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .newRotate {
+          font-family: Montserrat;
+          font-size: 14.6px;
+          line-height: 1.2;
+          font-weight: 400;
+          color: #ffffff;
+          transform: rotate(-45deg);
+          margin-bottom: 30px;
+          margin-right: 30px;
+        }
+      }
+
+      .priceLabel {
+        width: 139px;
+        height: 35px;
+        background-color: #26a6d1;
+        border-radius: 6px;
+        position: absolute;
+        right: 10px;
+        bottom: 20px;
+        font-size: 16.6px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .textContainer {
+      width: 250px;
+      margin-left: 24px;
+
+      h2 {
+        font-size: 17.2px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #484848;
+      }
+
+      p {
+        opacity: 0.7;
+        font-size: 13.2px;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #484848;
+      }
+
+      .progressBar {
+        width: 248px;
+        height: 14px;
+        background-color: #e3e3e3;
+        border-radius: 10px;
+
+        .progress-10 {
+          width: 38px;
+          height: 14px;
+          background-color: #add136;
+          border-radius: 10px 0 0 10px;
+        }
+
+        .progress-60 {
+          width: 168px;
+          height: 14px;
+          background-color: #add136;
+          border-radius: 10px 0 0 10px;
+        }
+      }
+
+      .tips {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-size: 13.2px;
+          line-height: 1.2;
+          font-weight: 600;
+          color: #8d8d8d;
+        }
+      }
+
+      .line {
+        width: 252px;
+        height: 1px;
+        background-color: #e3e3e3;
+      }
+    }
+
+    .details {
+      display: flex;
+      justify-content: end;
+      gap: 10px;
+      margin-top: 30px;
+      a {
+        text-decoration: none;
+        opacity: 0.85;
+        font-size: 15.2px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #484848;
+      }
+
+      i {
+        width: 12px;
+        height: 16px;
+        color: #add136;
+      }
+    }
+  }
+}
