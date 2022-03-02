@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 16 разбор фин макета</title>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        
+        .play-btn {
+            position: absolute;
+        }
+        
+        .play-btn.hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Аудио элемент -->
+    <!-- <audio controls>
+        <source src="audio-sample.mp3">
+        <source src="audio-sample.avv">
+        <source src="audio-sample.mp2">
+    </audio> -->
+
+    <!-- Видео элемент -->
+    <!-- <video controls autoplay muted loop></video>
+    <source src="video-sample.mp4">
+    <source src="video-sample.avi">
+    <source src="video-sample.webm"> -->
+
+    <!-- Реальный вариант -->
+    <section class="video-container">
+        <video>
+            <source src="video-sample.mp4">
+            <source src="video-sample.avi">
+            <source src="video-sample.webm">
+        </video>
+        <button class="play-btn">Play</button>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
